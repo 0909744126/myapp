@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="myscript.js"></script>
+</head>
+<body>
+    <h1>What Can JavaScript Do?</h1>
+    <p id="demo" style="font-size: 25px;"> JavaScript can change HTML content</p>
+    <button onclick="document.getElementById('demo').innerHTML='Hello JavaScript'">Click</button>
+    <button onclick="changeFont()">Change Font</button>
+    <hr/>
+    <h1>JavaScript Can Change Images</h1>
+    <img id="myImg" onclick="changeImg()" src="image/h1.jpg" alt="h1" name="h1">    
+    <hr/>
+    <h1>JavaScript Can Validate Input</h1>
+    <p>Please input a number between 1 and 10</p>
+    <input type="number" name="number" id="number">
+    <button id="check" onclick="checkValue()">Submit</button>
+    <p id="text"></p>
+    <hr/>
+    <h1>JavaScript Variables</h1>
+    <p>In this example, x, y, and z are variables</p>
+    <p>X</p>
+    <input type="number" name="x" id="x">
+    <p>Y</p>
+    <input type="number" name="y" id="y">
+    <p id="z">Z</p>
+
+    <button id="tinh" onclick="Calculate()">Cal</button>
+</body>
+</html>
